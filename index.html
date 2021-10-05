@@ -45,8 +45,15 @@
         }
 
         function changeCircleColor(color){
-            const circle = document.querySelector('.circle');
-            circle.style.background = color;
+
+            if ($('.circle').css('display') == 'none') {
+                const star = document.querySelector('.starbucks');
+                star.style.background = color;
+            }else{
+                const circle = document.querySelector('.circle');
+                circle.style.background = color;
+            }
+            
         }
 
         $(".starbucks").faceCursor();
