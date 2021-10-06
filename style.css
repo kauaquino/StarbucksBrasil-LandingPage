@@ -393,10 +393,13 @@ header ul li a{
     .sci li a {
         display: inline-block;
         margin: 5px 0;
-        padding-left: 30px;
+
         transform: scale(0.6);
     }
-
+    .mid{
+        padding-left: 20px;
+        padding-right: 3px;
+    }
     .circle{
         display:none;
     }
